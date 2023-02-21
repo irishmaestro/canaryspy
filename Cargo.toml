@@ -1,6 +1,6 @@
 [package]
 name = "canaryspy"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["irishmaestro"]
 description = "monitor vpn canary pages from the command line"
