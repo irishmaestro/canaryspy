@@ -16,7 +16,7 @@ fn list_canaries() {
 }
 
 fn cli() -> Command {
-    Command::new("canaryspy")
+    Command::new("canary")
         .about(DESC)
         .version(VERSION)
         .author(AUTHOR)

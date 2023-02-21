@@ -9,6 +9,10 @@ categories = ["command-line-interface"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "canary"
+path = "src/main.rs"
+
 [dependencies]
 ansi_term = "0.12.1"
 august = "2.4.0"
