@@ -1,4 +1,5 @@
 # canaryspy
+![Crates.io](https://img.shields.io/crates/d/canaryspy?color=black&style=for-the-badge)
 
 ### monitor vpn canary pages from the command line
 
