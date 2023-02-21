@@ -14,7 +14,7 @@ cargo install canaryspy
 canaryspy -p <provider>
 ```
 ```bash
-# Providers - NordVPN, Surfshark, ProtonVPN
+# Providers - nordvpn, surfshark, protonvpn
 canaryspy -p nordvpn
 ```
 
