@@ -12,8 +12,7 @@ struct Args {
 }
 
 fn usage() {
-    println!("canaryspy <provider_name>");
-    println!("vpn providers offering warrant canaries:");
+    println!("vpn providers offering canaries:");
     println!("    surfshark");
     println!("    nordvpn");
     println!("    protonvpn");
