@@ -1,6 +1,6 @@
 # canaryspy
 
-## monitor vpn canary pages from the command line
+### monitor vpn canary pages from the command line
 
 ## Installation
 
