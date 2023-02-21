@@ -3,23 +3,28 @@
 ### monitor vpn canary pages from the command line
 
 ## Installation
-
+### via crates.io
 ```bash
 cargo install canaryspy
+```
+### build from source
+```bash
+git clone https://github.com/IrishMaestro/canaryspy.git
+cargo install --path canaryspy
 ```
 
 ## Usage
 ### List canaries
 ```bash
-canaryspy list
+canary list
 ```
 ### Retrieve canary
 ```bash
-canaryspy pull <provider>
+canary pull <provider>
 ```
 ```bash
 # Providers -> nordvpn, surfshark, protonvpn
-canaryspy pull nordvpn
+canary pull nordvpn
 ```
 ----
 
