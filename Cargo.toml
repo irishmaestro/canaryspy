@@ -3,6 +3,7 @@ name = "canaryspy"
 version = "0.1.1"
 edition = "2021"
 authors = ["irishmaestro"]
+repository = "https://github.com/irishmaestro/canaryspy"
 description = "monitor vpn canary pages from the command line"
 license = "MIT OR Apache-2.0"
 categories = ["command-line-interface"]
