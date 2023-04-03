@@ -62,7 +62,7 @@ fn main() {
                 "nordvpn" => nordvpn::canary(),
                 "surfshark" => surfshark::canary(),
                 "protonvpn" => protonvpn::canary(),
-                _ => println!("provider not found. `canaryspy list` to list providers"),
+                _ => println!("provider not found. `canary list` to list providers"),
             }
         }
         Some(("list", _list_matches)) => list_canaries(),
