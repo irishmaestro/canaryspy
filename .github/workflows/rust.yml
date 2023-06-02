@@ -1,4 +1,4 @@
-name: Rust
+name: build/test
 
 on:
   push:
@@ -16,6 +16,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      
+      - name: Install rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
 
       - name: Cache Cargo dependencies
         uses: actions/cache@v2
@@ -24,12 +30,6 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-cargo-
 
-      - name: Set up Rust toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          profile: minimal
-          toolchain: stable
-
-      - name: Build
-        run: cargo build --verbose
+      - name: Build/Test
+        run: cargo build --verbose && cargo test --verbose
       
