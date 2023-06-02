@@ -1,5 +1,6 @@
 # canaryspy
 ![Crates.io](https://img.shields.io/crates/d/canaryspy?color=white&style=plastic)
+![build/test](https://github.com/irishmaestro/canaryspy/actions/workflows/build.yml/badge.svg)
 ### monitor vpn canary pages from the command line
 
 ## Installation
