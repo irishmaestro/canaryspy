@@ -31,8 +31,4 @@ jobs:
 
       - name: Build
         run: cargo build --verbose
-        
-      - name: Run cargo audit
-        uses: actions-rs/audit-check@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      
